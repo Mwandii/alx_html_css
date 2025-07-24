@@ -5,7 +5,7 @@
 }
 
 .hero-background {
-    background-image: radial-gradient(rgba(128, 128, 128, 0.7), rgb(20, 24, 44)),url(/css_advanced/media/Bitmap.png);
+    background-image: url(/css_advanced/media/Object.png);
     background-size: cover;
     padding: 20px 50px;
 }
@@ -172,4 +172,24 @@ header {
     display: flex;
     justify-content: space-evenly;
     padding: 0 90px;
+}
+
+.thumbnail {
+  position: relative;
+  display: inline-block;
+}
+
+.thumbnail img:first-child {
+  display: block;
+  width: 100%;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px; 
+  height: auto;
+  pointer-events: none;
 }
