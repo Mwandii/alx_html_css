@@ -239,9 +239,14 @@ header {
 
 .membership-container h2 {
     text-align: center;
-    padding: 4rem;
+    padding: 4rem 4rem 0 4rem;
     font-weight: 100;
     font-size: 30px;
+}
+
+.membership-container h3 {
+    margin-right: 29px;
+    margin-bottom: 21px;
 }
 
 .membership-container span {
@@ -252,5 +257,33 @@ header {
 .membership-content {
     display: flex;
     justify-content: space-evenly;
-    padding: 0 50px;
+}
+
+.membership-content div {
+    margin: 50px;
+}
+
+.membership-content img {
+    margin-right: 28px;
+    padding: 26px;
+}
+
+.smile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.8;
+    padding-left: 45px;
+    font-size: 14px;
+}
+
+.center-button button {
+    margin: 4rem 36rem;
+    padding: 13px;
+    background-color: #C271FF;
+    border: none;
+    border-radius: 999px;
+    color: white;
+    font-weight: bold;
 }
