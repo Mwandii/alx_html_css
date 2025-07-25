@@ -318,3 +318,31 @@ header {
 .faq-text {
     color: #8C8E92;
 }
+
+.footer {
+    background-color: #071629;
+    padding: 4rem 6rem;
+}
+
+.footer-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-sec i {
+    margin: 13px;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-icons {
+    margin-right: 50px;
+}
+
+.footer p {
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 0;
+    color: #8C8E92;
+}
