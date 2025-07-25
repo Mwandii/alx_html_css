@@ -172,6 +172,8 @@ header {
     display: flex;
     justify-content: space-evenly;
     padding: 0 90px;
+    line-height: 1.5;
+    font-size: 14px;
 }
 
 .thumbnail {
@@ -192,4 +194,63 @@ header {
   width: 50px; 
   height: auto;
   pointer-events: none;
+}
+
+.tutorials {
+    margin: 70px 25px;
+}
+
+.tutorials-content h3 {
+    padding: 10px;
+}
+
+.tutorials-content p {
+    padding: 10px;
+}
+
+.tutorials-content h4 {
+    color: #C271FF;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 5px 10px 0 10px;
+    margin-bottom: 0px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.rating p {
+    margin-right: 40px;
+    color: #C271FF;
+}
+
+.membership-container {
+    background-color: #071629;
+    color: white;
+}
+
+.membership-container h2 {
+    text-align: center;
+    padding: 4rem;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.membership-container span {
+    font-weight: bold;
+    color: #C271FF;
+}
+
+.membership-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 50px;
 }
