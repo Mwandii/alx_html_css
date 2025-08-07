@@ -48,9 +48,9 @@ header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    max-width: 60%;
     margin: auto;
     color: white;
+    padding: 0 10px;
 }
 
 #hero-title {
@@ -88,10 +88,58 @@ button {
 .hero-text {
     text-align: center;
     line-height: 1.5;
-    padding: 10px 50px;
+    padding: 10px 10px;
 }
 
+@media screen and (min-width: 540px) {
+    .hero-text {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
 
-.holberton_school-icon-ic_hearing {
-    font-size: 45px;
+.about {
+    line-height: 1.5;
+}
+
+.about-title {
+    text-align: center;
+    margin: 50px auto;
+    padding: 0 8px;
+}
+
+@media screen and (min-width: 540px) {
+    .about-title {
+        max-width: 600px;
+        margin: 70px auto;
+    }
+}
+
+.about-icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  text-align: center;
+  margin: 4rem 4.5rem 3rem 4.5rem;
+}
+
+.about-text {
+    padding: 0 10px;
+}
+
+.about-icons span {
+    color: var(--button-color);
+    font-size: 4rem;
+}
+
+@media (max-width: 1023px) {
+  .about-icons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .about-icons {
+    grid-template-columns: 1fr;
+  }
 }
