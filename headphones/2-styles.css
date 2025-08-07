@@ -1,0 +1,145 @@
+:root {
+    --button-color: #FF6565; 
+}
+
+body{
+    margin: 0;
+    font-family: Source sans pro, sans-serif;
+}
+
+header {
+    padding-top: 13px;
+}
+
+.hero{
+    background-image: url('images/headphones_hero_1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    max-height: 30px;
+    height: auto;
+    width: auto;
+}
+
+#nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+#nav-list li {
+    margin: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+}
+
+#hero-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    color: white;
+    padding: 0 10px;
+}
+
+#hero-title {
+    text-align: center;
+    margin-top: 190px;
+}
+
+#hero-title h1 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+#hero-title p {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+#hero-button {
+    text-align: center;
+}
+
+button {
+    background-color: var(--button-color);
+    border: none;
+    border-radius: 999px;
+    box-shadow:   0 3px 17px rgb(0, 0, 0);;
+    padding: 15px 20px;
+    font-size: 15px;
+    color: white;
+    margin: 30px 0;
+}
+
+.hero-text {
+    text-align: center;
+    line-height: 1.5;
+    padding: 10px 10px;
+}
+
+@media screen and (min-width: 540px) {
+    .hero-text {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+.about {
+    line-height: 1.5;
+}
+
+.about-title {
+    text-align: center;
+    margin: 50px auto;
+    padding: 0 8px;
+}
+
+@media screen and (min-width: 540px) {
+    .about-title {
+        max-width: 600px;
+        margin: 70px auto;
+    }
+}
+
+.about-icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  text-align: center;
+  margin: 4rem 4.5rem 3rem 4.5rem;
+}
+
+.about-text {
+    padding: 0 10px;
+}
+
+.about-icons span {
+    color: var(--button-color);
+    font-size: 4rem;
+}
+
+@media (max-width: 1023px) {
+  .about-icons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .about-icons {
+    grid-template-columns: 1fr;
+  }
+}
